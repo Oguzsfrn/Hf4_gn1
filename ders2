@@ -1,0 +1,9 @@
+import os, time
+for b in range(5):
+    for a in range(10):
+        open(f"dosya{a}.vek","w")
+
+
+time.sleep(3)
+for a in range(10):
+   os.remove(f"dosya{a}.vek")
