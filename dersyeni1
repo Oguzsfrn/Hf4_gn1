@@ -1,0 +1,9 @@
+d = open("rehber.txt")
+okunan = d.readline()
+print(type(okunan))
+for a in okunan:
+    # print(a)
+    # print(type(a))
+    b = a.split(",")
+    # print(type(b))
+    print(f"adı:(b[0]), \tNumarası:\t(int(b[1]))")
